@@ -6,25 +6,18 @@ aboutme.innerHTML = 'ABOUT ME'
 
 const summary = document.createElement('p')
 summary.setAttribute('div', 'summary')
-summary.innerHTML = 'I am currently studying physics and economics at Southern Methodist University (SMU). I am interested in artificial intelligence, software engineering, energy engineering, and machine communication, and I wish to be able to do some R&D in any of those fields in the future.'
+summary.innerHTML = 'I\'m a junior at Southern Methodist Univeristy double majoring in Physics and Economics with a minor in Computer Science. I am a Hamilton Research Fellow. Before transferring to SMU, I studied at The University of Arizona Honors College.' 
 
-const learning = document.createElement('h6')
-learning.setAttribute('div', 'learning')
-learning.innerHTML = 'Currently self-learning:'
+const summary2 = document.createElement('p')
+summary2.setAttribute('div', 'summary')
+summary2.innerHTML = 'I\'m passionate about tackling problems from an engineering point of view, which requires me to have knowledge in more than one engineering subjects. Nonetheless, Computer Science and Electrical Engineering interests me the most. One day, I hope to solve problems that will have a positive impact on generations to come.' 
 
-const learninglist = document.createElement('ul')
-learninglist.setAttribute('div', 'learninglist')
+const summary3 = document.createElement('p')
+summary3.setAttribute('div', 'summary')
+summary3.innerHTML = 'During the Fall of 2020, I will be focusing on learning the math behind nerual nets and machine learning outside of classroom, and finding a software engineering internship for summer 2021.' 
 
-const list1 = document.createElement('li')
-list1.innerHTML = 'Deep Reinforcement Learning'
-
-const list2 = document.createElement('li')
-list2.innerHTML = 'Circuit Analysis / Design'
-
-learninglist.appendChild(list1)
-learninglist.appendChild(list2)
 
 meapp.appendChild(aboutme)
 meapp.appendChild(summary)
-meapp.appendChild(learning)
-meapp.appendChild(learninglist)
+meapp.appendChild(summary2)
+meapp.appendChild(summary3)
