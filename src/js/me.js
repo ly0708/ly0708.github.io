@@ -14,7 +14,7 @@ summary2.innerHTML = 'I\'m passionate about tackling problems from an engineerin
 
 const summary3 = document.createElement('p')
 summary3.setAttribute('div', 'summary')
-summary3.innerHTML = 'During the Fall of 2020, I will be focusing on learning the math behind nerual nets and machine learning outside of classroom, and finding a software engineering internship for summer 2021.' 
+summary3.innerHTML = 'During the Fall of 2020, I will be focusing on learning the math behind nerual nets and machine learning outside of classroom.' 
 
 
 meapp.appendChild(aboutme)
