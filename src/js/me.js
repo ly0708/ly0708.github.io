@@ -6,18 +6,12 @@ aboutme.innerHTML = 'ABOUT ME'
 
 const summary = document.createElement('p')
 summary.setAttribute('div', 'summary')
-summary.innerHTML = 'I\'m a junior at Southern Methodist Univeristy double majoring in Physics and Economics with a minor in Computer Science. I am a Hamilton Research Fellow. Before transferring to SMU, I studied at The University of Arizona Honors College.' 
+summary.innerHTML = 'I\'m a junior at Southern Methodist Univeristy double majoring in Physics and Economics with a minor in Computer Science. Before transferring to SMU, I studied at The University of Arizona Honors College.' 
 
 const summary2 = document.createElement('p')
 summary2.setAttribute('div', 'summary')
 summary2.innerHTML = 'I\'m passionate about tackling problems from an engineering point of view, which requires me to have knowledge in more than one engineering subjects. Nonetheless, Computer Science and Electrical Engineering interests me the most. One day, I hope to solve problems that will have a positive impact on generations to come.' 
 
-const summary3 = document.createElement('p')
-summary3.setAttribute('div', 'summary')
-summary3.innerHTML = 'During the Fall of 2020, I will be focusing on learning the math behind nerual nets and machine learning outside of classroom.' 
-
-
 meapp.appendChild(aboutme)
 meapp.appendChild(summary)
 meapp.appendChild(summary2)
-meapp.appendChild(summary3)
