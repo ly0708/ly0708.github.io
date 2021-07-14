@@ -86,10 +86,11 @@ ul.timeline > li:before {
     margin: 5%;
 }
 
-#githublogo {
-    width: 15%;
+#api h4 {
+    letter-spacing: 1.5px;
 }
 
-.table {
-    text-align: center;
+.card {
+    margin: 1% 20% 0 0;
+    text-align: left;
 }
