@@ -17,6 +17,8 @@ request.onload = function(){
 
     var data = JSON.parse(this.response)   
 
+    console.log(data)
+
     if (request.status >= 200 && request.status < 400){
 
         //Creating a table

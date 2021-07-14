@@ -1,16 +1,11 @@
-#nav {
-    padding-top: 2%;
-}
-
-.nav-item {
-    padding-left: 30%;
-    font-size: 20px;
-}
-
 #home {
-    padding: 13%;
+    padding: 9%;
     height: 100%;
     letter-spacing: 5px;
+}
+
+.headline {
+    margin: 3%;
 }
 
 #home h2 {
@@ -24,23 +19,33 @@
     padding-right: 2%;
 }
 
+#home .headline p {
+    padding: 0 0 3% 0;
+}
+
+.readmore {
+    padding: 10% 0 0 0;
+    text-align: center;
+}
+
+
 
 
 #me {
     height: 100%;
     padding: 5%;
     letter-spacing: 1.5px;
+    color: whitesmoke;
 }
 
 #me h4 {
-    padding: 5% 0 5% 0;
+    padding: 0 0 5% 0;
 }
 
 #me p {
     letter-spacing: 1.5px;
     line-height: 2;
 }
-
 
 
 
@@ -74,9 +79,6 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
-
-
-
 
 
 
