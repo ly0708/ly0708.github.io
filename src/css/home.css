@@ -1,7 +1,6 @@
 #home {
     padding: 9%;
     height: 100%;
-    letter-spacing: 5px;
 }
 
 .headline {
@@ -10,6 +9,7 @@
 
 #home h2 {
     padding: 0 0 3% 0;
+    letter-spacing: 5px;
 }
 
 #home img {
@@ -21,6 +21,8 @@
 
 #home .headline p {
     padding: 0 0 3% 0;
+    letter-spacing: 5px;
+
 }
 
 .readmore {
@@ -53,6 +55,7 @@ ul.timeline {
     list-style-type: none;
     position: relative;
 }
+
 ul.timeline:before {
     content: ' ';
     background: #d4d9df;
@@ -63,10 +66,12 @@ ul.timeline:before {
     height: 100%;
     z-index: 400;
 }
+
 ul.timeline > li {
     margin: 20px 0;
     padding-left: 20px;
 }
+
 ul.timeline > li:before {
     content: ' ';
     background: white;
