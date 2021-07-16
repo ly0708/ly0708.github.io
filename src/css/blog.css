@@ -1,0 +1,32 @@
+.blog-section {
+    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+ 
+
+.expandMoreContent {
+    height: 70px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    position: relative;
+}
+
+.expandMoreContent.expand-active {
+    height: auto;
+    transition: height 0.5s ease-in-out;
+}
+
+.btn-expand-more {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    text-decoration: underline;  
+    color: blue;
+}
