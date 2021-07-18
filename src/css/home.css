@@ -92,10 +92,6 @@ ul.timeline > li:before {
 }
 
 #api h4 {
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
-.card {
-    margin: 1% 10% 0 0;
-    text-align: left;
-}
